@@ -2,7 +2,7 @@
 
 Ez a projekt a 2021 őszén a [Partizán](https://www.youtube.com/c/Partiz%C3%A1nm%C3%A9dia) youtube csatornáján megrendezett előválasztási viták automatikus szöveges átiratait tartalmazza.  
 Az átiratokat a Partizán csapatának beleegyezésével tesszük közzé, azok szabadon fölhasználhatók pl. adatvizualizációs, korpusznyelvészeti célokra.  
-Érdemes tudni, hogy mivel az átiratok automatikusan készültek (a Google Cloud speech-to-text megoldását használva), így azok tartalmazhatnak helyesírási, szegmentálási, stb. hibákat.
+Érdemes tudni, hogy mivel az átiratok automatikusan készültek (a Google Cloud speech-to-text megoldását használva), így azok tartalmazhatnak helyesírási, szegmentálási, stb. hibákat.  
 Magukat az átiratokat a `transcripts` mappa tartalmazza vitánként egy-egy JSON fájl formájában, az egyes videók metaadatai pedig a [debates_meta_data.json](debates_meta_data.json) fájlban találhatók meg.
 
 Az átiratok alapjául szolgáló egyes videók, a közzétételük időpontja szerinti sorrendben az alábbiak:
