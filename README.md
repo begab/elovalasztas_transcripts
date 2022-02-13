@@ -3,7 +3,7 @@
 Ez a projekt a 2021 őszén a [Partizán](https://www.youtube.com/c/Partiz%C3%A1nm%C3%A9dia) youtube csatornáján megrendezett előválasztási viták automatikus szöveges átiratait tartalmazza.  
 Az átiratokat a Partizán csapatának beleegyezésével tesszük közzé, azok szabadon fölhasználhatók pl. adatvizualizációs, korpusznyelvészeti célokra.  
 Érdemes tudni, hogy mivel az átiratok automatikusan készültek (a Google Cloud speech-to-text megoldását használva), így azok tartalmazhatnak helyesírási, szegmentálási, stb. hibákat.  
-Magukat az átiratokat a `transcripts` mappa tartalmazza vitánként egy-egy JSON fájl formájában, az egyes videók metaadatai pedig a [debates_meta_data.json](debates_meta_data.json) fájlban találhatók meg.
+Magukat az átiratokat a `transcripts` mappa tartalmazza vitánként egy-egy JSON fájl formájában, az egyes videók metaadatai, illetve az egyes körzetek végeredményei pedig a [debates_meta_data.json](debates_meta_data.json) és a [results.txt](results.txt) fájlokban találhatók meg.  
 
 Az átiratok alapjául szolgáló egyes videók, a közzétételük időpontja szerinti sorrendben az alábbiak:
 * [Nagykanizsa képviselőjelöltjeinek vitája | Zala megye 3. sz. OEVK | Előválasztás](https://www.youtube.com/watch?v=2og3Dgxrmp4)
